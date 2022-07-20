@@ -11,7 +11,7 @@ const INITIALIZATION = "INITIALIZATION";
 const LOGIN_SUCCESS = "LOGIN_SUCCESS";
 const LOGOUT = "LOGOUT";
 const REGISTER = "REGISTER";
-const LOGIN_ERROR = "LOGIN_ERROR"
+const LOGIN_ERROR = "LOGIN_ERROR";
 
 const reducer = (state, action) => {
   switch (action.type) {
